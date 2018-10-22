@@ -7,7 +7,9 @@ from project import db
 
 from project import create_app
 
+
 app = create_app()
+
 
 class BaseTestCase(TestCase):
     def create_app(self):
